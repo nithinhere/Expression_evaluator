@@ -1,0 +1,8 @@
+An expandable stack can grow in various ways. In this assignment, the stack grows by doubling
+its current size. For example, given a stack with current capacity of 8, if a new element is to be
+pushed on the stack and the stack already contains 8 elements, the capacity of the stack will
+automatically increase to 16 so it can accommodate the new element. The capacity of a stack only
+grows—it doesn’t shrink when elements are popped.
+To implement such a stack, you will need to use a dynamic array to hold all stack elements. Then,
+when the capacity is doubled, a new, larger dynamic array is created and is used to replace the
+current array.
